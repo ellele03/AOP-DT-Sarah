@@ -281,6 +281,16 @@ body {
     border-radius: 16px;
 }
 
+.as-agenda-daftar {
+    margin: 10px 0 0 0;
+    padding: 0 0 0 18px;
+}
+
+.as-agenda-daftar li {
+    margin: 0 0 6px 0;
+    font-size: 15px;
+}
+
 .as-agenda-kartu p {
     margin: 0;
 }
