@@ -9,7 +9,31 @@
 </head>
 <body>
 
-    <header class="as-atas">
+    <section class="as-masuk" id="masuk">
+        <div class="as-portal">
+            <img src="images/logo.png" alt="Logo SMA Santa Laurensia" class="as-portal-logo">
+            <h2>Masuk ke akun Anda</h2>
+            <p class="as-portal-sub">Gunakan username dan password sekolah.</p>
+            <div class="as-isian">
+                <p class="as-isian-judul">Username</p>
+                <input type="text" class="as-kotak-isi" id="username" name="username" placeholder="Masukkan username">
+            </div>
+            <div class="as-isian">
+                <p class="as-isian-judul">Password</p>
+                <input type="password" class="as-kotak-isi" id="password" name="password" placeholder="Masukkan password">
+            </div>
+            <div class="as-portal-baris">
+                <div class="as-ingat">
+                    <input type="checkbox" class="as-centang" id="ingat" name="ingat">
+                    <p>Ingat saya</p>
+                </div>
+                <a href="#masuk">Lupa password?</a>
+            </div>
+            <a class="as-tombol-masuk" href="#beranda">Masuk</a>
+        </div>
+    </section>
+
+    <header class="as-atas" id="beranda">
         <div class="as-merek">
             <img src="images/logo.png" alt="Logo SMA Santa Laurensia" class="as-logo">
             <div>
@@ -22,7 +46,7 @@
             <a href="#pengurus">Pengurus</a>
             <a href="#jadwal">Jadwal</a>
             <a href="#agenda">Agenda</a>
-            <a class="as-tombol" href="#masuk">Masuk</a>
+            <a class="as-tombol" href="cv1.html">Profil Kami</a>
         </nav>
     </header>
 
@@ -336,30 +360,6 @@
                         <li>Membawa buku sesuai jadwal.</li>
                     </ul>
                 </div>
-            </div>
-        </section>
-
-        <section class="as-bagian as-masuk" id="masuk">
-            <div class="as-portal">
-                <img src="images/logo.png" alt="Logo SMA Santa Laurensia" class="as-portal-logo">
-                <h2>Masuk ke akun Anda</h2>
-                <p class="as-portal-sub">Gunakan username dan password sekolah.</p>
-                <div class="as-isian">
-                    <p class="as-isian-judul">Username</p>
-                    <input type="text" class="as-kotak-isi" id="username" name="username" placeholder="Masukkan username">
-                </div>
-                <div class="as-isian">
-                    <p class="as-isian-judul">Password</p>
-                    <input type="password" class="as-kotak-isi" id="password" name="password" placeholder="Masukkan password">
-                </div>
-                <div class="as-portal-baris">
-                    <div class="as-ingat">
-                        <input type="checkbox" class="as-centang" id="ingat" name="ingat">
-                        <p>Ingat saya</p>
-                    </div>
-                    <a href="#masuk">Lupa password?</a>
-                </div>
-                <a class="as-tombol-masuk" href="cv1.html">Masuk</a>
             </div>
         </section>
     </main>

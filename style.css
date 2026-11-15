@@ -309,12 +309,16 @@ body {
 }
 
 .as-masuk {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    padding: 0 20px;
     background-color: #e2f1fc;
 }
 
 .as-portal {
     width: 400px;
-    margin: 0 auto;
     padding: 32px;
     background-color: #ffffff;
     border: 2px solid #c6e3f7;
@@ -332,6 +336,7 @@ body {
 .as-portal h2 {
     margin: 0 0 6px 0;
     font-size: 24px;
+    color: #1c75b3;
     text-align: center;
 }
 
@@ -547,6 +552,12 @@ body {
     .as-agenda {
         grid-template-columns: 1fr;
         gap: 14px;
+    }
+
+    .as-masuk {
+        grid-template-columns: 1fr;
+        height: 900px;
+        padding: 0 16px;
     }
 
     .as-portal {
