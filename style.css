@@ -308,17 +308,17 @@ body {
     color: #1c75b3;
 }
 
-.as-masuk {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    height: 1000px;
-    padding: 0 20px;
+.as-halaman-masuk {
     background-color: #e2f1fc;
+}
+
+.as-masuk {
+    padding: 120px 20px;
 }
 
 .as-portal {
     width: 400px;
+    margin: 0 auto;
     padding: 32px;
     background-color: #ffffff;
     border: 2px solid #c6e3f7;
@@ -555,9 +555,7 @@ body {
     }
 
     .as-masuk {
-        grid-template-columns: 1fr;
-        height: 900px;
-        padding: 0 16px;
+        padding: 60px 16px;
     }
 
     .as-portal {
