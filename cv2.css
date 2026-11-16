@@ -6,12 +6,12 @@ body {
     font-size: 15px;
 }
 
-.s-bar {
+.sarah-bar {
     background-color: #ffffff;
     box-shadow: 0 2px 10px rgba(232, 101, 90, 0.15);
 }
 
-.s-bar-isi {
+.sarah-bar-isi {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,14 +20,14 @@ body {
     padding: 18px 0;
 }
 
-.s-merek {
+.sarah-merek {
     margin: 0;
     font-size: 17px;
     font-weight: bold;
     color: #b8433a;
 }
 
-.s-menu {
+.sarah-menu {
     display: flex;
     gap: 6px;
     margin: 0;
@@ -35,7 +35,7 @@ body {
     list-style-type: none;
 }
 
-.s-menu a {
+.sarah-menu a {
     display: block;
     padding: 8px 12px;
     color: #6e5c5a;
@@ -44,17 +44,17 @@ body {
     text-decoration: none;
 }
 
-.s-menu a:hover {
+.sarah-menu a:hover {
     background-color: #ffe6e1;
     color: #b8433a;
 }
 
-.s-hero {
+.sarah-hero {
     padding: 52px 0;
     background-color: #ffe6e1;
 }
 
-.s-hero-isi {
+.sarah-hero-isi {
     display: grid;
     grid-template-columns: 280px 1fr;
     gap: 52px;
@@ -63,11 +63,11 @@ body {
     margin: 0 auto;
 }
 
-.s-foto-kolom {
+.sarah-foto-kolom {
     text-align: center;
 }
 
-.s-foto {
+.sarah-foto {
     display: block;
     width: 268px;
     height: 268px;
@@ -78,13 +78,13 @@ body {
     box-shadow: 0 6px 18px rgba(232, 101, 90, 0.25);
 }
 
-.s-petunjuk {
+.sarah-petunjuk {
     margin: 12px 0 10px 0;
     font-size: 12px;
     color: #8a6f6c;
 }
 
-.s-tugas {
+.sarah-tugas {
     display: block;
     width: 180px;
     margin: 0 auto;
@@ -98,30 +98,30 @@ body {
     text-decoration: none;
 }
 
-.s-tugas:hover {
+.sarah-tugas:hover {
     background-color: #e8655a;
     color: #ffffff;
 }
 
-.s-hero h1 {
+.sarah-hero h1 {
     margin: 0 0 8px 0;
     font-size: 42px;
     color: #3b2b2a;
 }
 
-.s-judul {
+.sarah-judul {
     margin: 0 0 16px 0;
     font-size: 17px;
     font-weight: bold;
     color: #b8433a;
 }
 
-.s-tagline {
+.sarah-tagline {
     margin: 0 0 24px 0;
     color: #6e5c5a;
 }
 
-.s-cta {
+.sarah-cta {
     display: block;
     width: 160px;
     padding: 12px 10px;
@@ -134,12 +134,12 @@ body {
     text-decoration: none;
 }
 
-.s-cta:hover {
+.sarah-cta:hover {
     background-color: #ffffff;
     color: #b8433a;
 }
 
-.s-isi {
+.sarah-isi {
     display: grid;
     gap: 24px;
     width: 1080px;
@@ -147,40 +147,40 @@ body {
     padding: 36px 0 44px 0;
 }
 
-.s-dua {
+.sarah-dua {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
 }
 
-.s-kolom {
+.sarah-kolom {
     display: grid;
     gap: 24px;
 }
 
-.s-kartu {
+.sarah-kartu {
     padding: 26px 30px;
     background-color: #ffffff;
     border-radius: 22px;
     box-shadow: 0 4px 16px rgba(232, 101, 90, 0.12);
 }
 
-.s-kartu h2 {
+.sarah-kartu h2 {
     margin: 0 0 16px 0;
     font-size: 21px;
     color: #b8433a;
 }
 
-.s-kartu h3 {
+.sarah-kartu h3 {
     margin: 0;
     font-size: 15px;
 }
 
-.s-kartu p {
+.sarah-kartu p {
     margin: 0;
 }
 
-.s-daftar {
+.sarah-daftar {
     display: grid;
     gap: 10px;
     margin: 0;
@@ -188,22 +188,22 @@ body {
     list-style-type: none;
 }
 
-.s-sekolah {
+.sarah-sekolah {
     padding: 14px 16px;
     background-color: #fff3f0;
     border-radius: 12px;
 }
 
-.s-sekolah h3 {
+.sarah-sekolah h3 {
     margin: 0 0 4px 0;
 }
 
-.s-kartu .s-sekolah p {
+.sarah-kartu .sarah-sekolah p {
     font-size: 13px;
     color: #8a6f6c;
 }
 
-.s-kerja {
+.sarah-kerja {
     display: grid;
     grid-template-columns: 1fr 46px;
     gap: 14px;
@@ -213,7 +213,7 @@ body {
     border-radius: 12px;
 }
 
-.s-kartu .s-logo {
+.sarah-kartu .sarah-logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -227,7 +227,7 @@ body {
     font-weight: bold;
 }
 
-.s-chip {
+.sarah-chip {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
@@ -236,7 +236,7 @@ body {
     list-style-type: none;
 }
 
-.s-chip li {
+.sarah-chip li {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -249,7 +249,7 @@ body {
     text-align: center;
 }
 
-.s-proyek {
+.sarah-proyek {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
@@ -259,11 +259,11 @@ body {
     border-radius: 16px;
 }
 
-.s-proyek-isi {
+.sarah-proyek-isi {
     padding: 8px 0;
 }
 
-.s-proyek-gambar {
+.sarah-proyek-gambar {
     display: block;
     width: 100%;
     height: 240px;
@@ -272,23 +272,23 @@ body {
     border-radius: 10px;
 }
 
-.s-kartu .s-label {
+.sarah-kartu .sarah-label {
     margin: 0 0 4px 0;
     font-size: 12px;
     font-weight: bold;
     color: #b8433a;
 }
 
-.s-proyek-isi h3 {
+.sarah-proyek-isi h3 {
     margin: 0 0 6px 0;
 }
 
-.s-kartu .s-proyek-isi p {
+.sarah-kartu .sarah-proyek-isi p {
     font-size: 13px;
     color: #6e5c5a;
 }
 
-.s-lihat {
+.sarah-lihat {
     display: block;
     margin: 10px 0 0 0;
     color: #b8433a;
@@ -296,7 +296,7 @@ body {
     font-weight: bold;
 }
 
-.s-kontak {
+.sarah-kontak {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 12px;
@@ -305,24 +305,24 @@ body {
     list-style-type: none;
 }
 
-.s-kontak li {
+.sarah-kontak li {
     padding: 14px 16px;
     background-color: #fff3f0;
     border-radius: 12px;
     font-size: 14px;
 }
 
-.s-kontak a {
+.sarah-kontak a {
     color: #b8433a;
     font-weight: bold;
 }
 
-.s-kontak strong {
+.sarah-kontak strong {
     font-size: 12px;
     color: #b8433a;
 }
 
-.s-bawah {
+.sarah-bawah {
     padding: 26px 16px 30px 16px;
     background-color: #ffe6e1;
     color: #6e5c5a;
@@ -330,33 +330,33 @@ body {
     text-align: center;
 }
 
-.s-bawah p {
+.sarah-bawah p {
     margin: 0;
 }
 
 @media (max-width: 1120px) {
-    .s-bar-isi {
+    .sarah-bar-isi {
         width: auto;
         margin: 0 24px;
     }
 
-    .s-hero-isi {
+    .sarah-hero-isi {
         width: auto;
         margin: 0 24px;
     }
 
-    .s-isi {
+    .sarah-isi {
         width: auto;
         margin: 0 24px;
     }
 
-    .s-kontak {
+    .sarah-kontak {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (max-width: 900px) {
-    .s-bar-isi {
+    .sarah-bar-isi {
         display: grid;
         justify-content: center;
         gap: 12px;
@@ -365,87 +365,87 @@ body {
 }
 
 @media (max-width: 700px) {
-    .s-bar-isi {
+    .sarah-bar-isi {
         display: block;
         margin: 0 16px;
         padding: 14px 0;
     }
 
-    .s-merek {
+    .sarah-merek {
         margin: 0 0 12px 0;
         font-size: 15px;
     }
 
-    .s-menu {
+    .sarah-menu {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 8px;
     }
 
-    .s-menu a {
+    .sarah-menu a {
         padding: 8px 4px;
         background-color: #fff3f0;
         color: #b8433a;
         font-size: 13px;
     }
 
-    .s-hero {
+    .sarah-hero {
         padding: 30px 0 32px 0;
     }
 
-    .s-hero-isi {
+    .sarah-hero-isi {
         grid-template-columns: 1fr;
         gap: 22px;
         margin: 0 16px;
         text-align: center;
     }
 
-    .s-foto {
+    .sarah-foto {
         width: 190px;
         height: 190px;
     }
 
-    .s-hero h1 {
+    .sarah-hero h1 {
         font-size: 28px;
     }
 
-    .s-judul {
+    .sarah-judul {
         font-size: 15px;
     }
 
-    .s-cta {
+    .sarah-cta {
         margin: 0 auto;
     }
 
-    .s-isi {
+    .sarah-isi {
         margin: 0 16px;
         padding: 24px 0 32px 0;
         gap: 18px;
     }
 
-    .s-dua {
+    .sarah-dua {
         grid-template-columns: 1fr;
         gap: 18px;
     }
 
-    .s-kolom {
+    .sarah-kolom {
         gap: 18px;
     }
 
-    .s-kartu {
+    .sarah-kartu {
         padding: 22px 18px;
     }
 
-    .s-chip li {
+    .sarah-chip li {
         padding: 9px 6px;
         font-size: 13px;
     }
 
-    .s-proyek {
+    .sarah-proyek {
         grid-template-columns: 1fr;
     }
 
-    .s-kontak {
+    .sarah-kontak {
         grid-template-columns: 1fr;
     }
 }
