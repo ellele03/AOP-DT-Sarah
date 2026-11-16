@@ -1,229 +1,288 @@
 body {
     margin: 0;
-    background-color: #f2f6f6;
-    color: #2a3a3a;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-}
-
-h1, h2, h3 {
-    font-family: Georgia, "Times New Roman", serif;
-}
-
-.adel-kepala {
-    padding: 44px 80px;
-    background-color: #d6f0ed;
-}
-
-.adel-kecil {
-    margin: 0;
+    background-color: #f3fbfa;
+    color: #1f3533;
+    font-family: Verdana, Tahoma, sans-serif;
     font-size: 15px;
-    font-weight: bold;
-    color: #0d7d7f;
 }
 
-.adel-kepala h1 {
-    margin: 8px 0;
-    font-size: 44px;
-    color: #0b5f61;
-}
-
-.adel-perkenalan {
-    margin: 0;
-    font-size: 18px;
-    color: #4f6262;
-}
-
-.adel-isi {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: start;
-    gap: 28px;
-    padding: 32px 80px;
-}
-
-.adel-samping {
-    display: grid;
-    gap: 24px;
-}
-
-.adel-utama {
-    display: grid;
-    gap: 24px;
-}
-
-.adel-kotak {
-    padding: 26px;
+.adel-bar {
     background-color: #ffffff;
-    border-radius: 14px;
-    box-shadow: 0 3px 12px rgba(13, 125, 127, 0.1);
+    box-shadow: 0 2px 10px rgba(20, 149, 138, 0.15);
 }
 
-.adel-kotak h2 {
-    margin: 0 0 16px 0;
-    font-size: 22px;
-    color: #0b6466;
+.adel-bar-isi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 18px 0;
 }
 
-.adel-kotak h3 {
-    margin: 0 0 6px 0;
-    font-size: 18px;
+.adel-merek {
+    margin: 0;
+    font-size: 17px;
+    font-weight: bold;
+    color: #0f766e;
 }
 
-.adel-kotak p {
-    margin: 0 0 8px 0;
+.adel-menu {
+    display: flex;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.adel-menu a {
+    display: block;
+    padding: 8px 12px;
+    color: #4b625f;
+    border-radius: 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.adel-menu a:hover {
+    background-color: #dff3f0;
+    color: #0f766e;
+}
+
+.adel-hero {
+    padding: 52px 0;
+    background-color: #dff3f0;
+}
+
+.adel-hero-isi {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 52px;
+    align-items: center;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.adel-foto-kolom {
+    text-align: center;
 }
 
 .adel-foto {
     display: block;
-    width: 100%;
-    height: 420px;
+    width: 268px;
+    height: 268px;
+    margin: 0 auto;
     object-fit: cover;
-    border-radius: 12px;
+    border: 6px solid #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 6px 18px rgba(20, 149, 138, 0.25);
 }
 
-.adel-kotak .adel-petunjuk {
-    margin: 10px 0 0 0;
-    font-size: 13px;
-    color: #6b7b7b;
-    text-align: center;
+.adel-petunjuk {
+    margin: 12px 0 10px 0;
+    font-size: 12px;
+    color: #6b7f7c;
 }
 
 .adel-tugas {
     display: block;
-    margin: 12px 0 0 0;
-    padding: 10px;
-    background-color: #0d7d7f;
-    color: #ffffff;
-    border-radius: 8px;
+    width: 180px;
+    margin: 0 auto;
+    padding: 8px 10px;
+    background-color: #ffffff;
+    color: #0f766e;
+    border: 2px solid #14958a;
+    border-radius: 20px;
+    font-size: 14px;
     font-weight: bold;
-    text-align: center;
     text-decoration: none;
 }
 
 .adel-tugas:hover {
-    background-color: #0b6466;
+    background-color: #14958a;
+    color: #ffffff;
 }
 
-.adel-kontak {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-.adel-kontak li {
-    margin: 0 0 12px 0;
-}
-
-.adel-kontak strong {
-    font-size: 13px;
-    color: #0d7d7f;
-}
-
-.adel-keahlian {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-.adel-keahlian li {
+.adel-hero h1 {
     margin: 0 0 8px 0;
-    padding: 9px 14px;
-    background-color: #e3f4f2;
-    border-radius: 8px;
+    font-size: 42px;
+    color: #1f3533;
 }
 
-.adel-tiga {
+.adel-judul {
+    margin: 0 0 16px 0;
+    font-size: 17px;
+    font-weight: bold;
+    color: #0f766e;
+}
+
+.adel-tagline {
+    margin: 0 0 24px 0;
+    color: #4b625f;
+}
+
+.adel-isi {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 14px;
-    margin: 18px 0 0 0;
+    gap: 24px;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 36px 0 44px 0;
 }
 
 .adel-dua {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 16px;
+    gap: 24px;
 }
 
-.adel-mini {
-    padding: 14px 16px 6px 16px;
-    background-color: #f2f8f7;
-    border: 1px solid #cfe9e6;
-    border-radius: 12px;
+.adel-kolom {
+    display: grid;
+    gap: 24px;
 }
 
-.adel-kotak .adel-judul-mini {
-    margin: 0 0 6px 0;
-    font-size: 13px;
-    font-weight: bold;
-    color: #0d7d7f;
+.adel-kartu {
+    padding: 26px 30px;
+    background-color: #ffffff;
+    border-radius: 22px;
+    box-shadow: 0 4px 16px rgba(20, 149, 138, 0.12);
+}
+
+.adel-kartu h2 {
+    margin: 0 0 16px 0;
+    font-size: 21px;
+    color: #0f766e;
+}
+
+.adel-kartu h3 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.adel-kartu p {
+    margin: 0;
 }
 
 .adel-daftar {
     display: grid;
-    gap: 14px;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
-.adel-pengalaman {
+.adel-sekolah {
+    padding: 14px 16px;
+    background-color: #eef8f6;
+    border-radius: 12px;
+}
+
+.adel-sekolah h3 {
+    margin: 0 0 4px 0;
+}
+
+.adel-kartu .adel-sekolah p {
+    font-size: 13px;
+    color: #6b7f7c;
+}
+
+.adel-kerja {
     display: grid;
-    grid-template-columns: 22px 1fr;
+    grid-template-columns: 1fr 46px;
     gap: 14px;
+    align-items: center;
+    padding: 10px 12px 10px 16px;
+    background-color: #eef8f6;
+    border-radius: 12px;
 }
 
-.adel-titik {
-    width: 14px;
-    height: 14px;
-    margin: 4px 0 0 0;
-    background-color: #0d7d7f;
-    border-radius: 50%;
-    box-shadow: 0 0 0 4px #d6f0ed;
+.adel-kartu .adel-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    background-color: #ffffff;
+    color: #0f766e;
+    border: 2px dashed #8ccfc6;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
-.adel-kotak .adel-waktu {
-    margin: 0 0 6px 0;
+.adel-chip {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.adel-chip li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    background-color: #d3efea;
+    color: #0b5f58;
+    border-radius: 20px;
     font-size: 14px;
     font-weight: bold;
-    color: #0d7d7f;
+    text-align: center;
 }
 
 .adel-proyek {
     display: grid;
-    grid-template-columns: 44px 1fr;
-    gap: 16px;
-    padding: 14px 14px 6px 14px;
-    background-color: #f2f8f7;
-    border-radius: 12px;
-}
-
-.adel-kotak .adel-nomor {
-    display: flex;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
     align-items: center;
-    width: 44px;
-    height: 44px;
+    padding: 16px;
+    background-color: #eef8f6;
+    border-radius: 16px;
+}
+
+.adel-proyek-isi {
+    padding: 8px 0;
+}
+
+.adel-proyek-gambar {
+    display: block;
+    width: 100%;
+    height: 240px;
     margin: 0;
-    background-color: #0d7d7f;
-    color: #ffffff;
+    object-fit: cover;
     border-radius: 10px;
-    font-size: 20px;
-    font-weight: bold;
 }
 
-.adel-proyek a {
-    color: #0d7d7f;
+.adel-kartu .adel-label {
+    margin: 0 0 4px 0;
+    font-size: 12px;
     font-weight: bold;
+    color: #0f766e;
 }
 
-.adel-proyek a:hover {
-    color: #0b5f61;
+.adel-proyek-isi h3 {
+    margin: 0 0 6px 0;
+}
+
+.adel-kartu .adel-proyek-isi p {
+    font-size: 13px;
+    color: #4b625f;
+}
+
+.adel-lihat {
+    display: block;
+    margin: 10px 0 0 0;
+    color: #0f766e;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .adel-bawah {
-    padding: 24px 16px;
-    background-color: #e3f4f2;
-    color: #4f6262;
-    font-size: 14px;
+    padding: 26px 16px 30px 16px;
+    background-color: #dff3f0;
+    color: #4b625f;
+    font-size: 13px;
     text-align: center;
 }
 
@@ -231,48 +290,108 @@ h1, h2, h3 {
     margin: 0;
 }
 
-@media (max-width: 1000px) {
-    .adel-kepala {
-        padding: 36px 30px;
+@media (max-width: 1120px) {
+    .adel-bar-isi {
+        width: auto;
+        margin: 0 24px;
+    }
+
+    .adel-hero-isi {
+        width: auto;
+        margin: 0 24px;
     }
 
     .adel-isi {
-        padding: 26px 30px;
+        width: auto;
+        margin: 0 24px;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .adel-bar-isi {
+        display: grid;
+        justify-content: center;
+        gap: 12px;
+        text-align: center;
     }
 }
 
 @media (max-width: 700px) {
-    .adel-kepala {
-        padding: 28px 16px;
+    .adel-bar-isi {
+        display: block;
+        margin: 0 16px;
+        padding: 14px 0;
     }
 
-    .adel-kepala h1 {
-        font-size: 32px;
+    .adel-merek {
+        margin: 0 0 12px 0;
+        font-size: 15px;
     }
 
-    .adel-perkenalan {
-        font-size: 16px;
+    .adel-menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 8px;
     }
 
-    .adel-isi {
+    .adel-menu a {
+        padding: 8px 4px;
+        background-color: #eef8f6;
+        color: #0f766e;
+        font-size: 13px;
+    }
+
+    .adel-hero {
+        padding: 30px 0 32px 0;
+    }
+
+    .adel-hero-isi {
         grid-template-columns: 1fr;
-        gap: 20px;
-        padding: 20px 16px;
-    }
-
-    .adel-kotak {
-        padding: 20px;
+        gap: 22px;
+        margin: 0 16px;
+        text-align: center;
     }
 
     .adel-foto {
-        height: 380px;
+        width: 190px;
+        height: 190px;
     }
 
-    .adel-tiga {
-        grid-template-columns: 1fr;
+    .adel-hero h1 {
+        font-size: 28px;
+    }
+
+    .adel-judul {
+        font-size: 15px;
+    }
+
+    .adel-isi {
+        margin: 0 16px;
+        padding: 24px 0 32px 0;
+        gap: 18px;
     }
 
     .adel-dua {
         grid-template-columns: 1fr;
+        gap: 18px;
     }
+
+    .adel-kolom {
+        gap: 18px;
+    }
+
+    .adel-kartu {
+        padding: 22px 18px;
+    }
+
+    .adel-chip li {
+        padding: 9px 6px;
+        font-size: 13px;
+    }
+
+    .adel-proyek {
+        grid-template-columns: 1fr;
+    }
+
 }
